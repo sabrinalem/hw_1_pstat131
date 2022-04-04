@@ -42,22 +42,22 @@ Classification is used when the response variable is qualitative.
 \
 **Question 3:**
 \
-Metrics for regression ML problems:
-1. Mean Squared Error (MSE)
-2. Mean Absolute Error
-Metrics for classification ML problems
-1.Confusion Matrix
-2.Precision
+Metrics for regression ML problems:\
+1. Mean Squared Error (MSE)\
+2. Mean Absolute Error\
+Metrics for classification ML problems\
+1.Confusion Matrix\
+2.Precision\
 \
 \
 **Question 4:**
 \
-Descriptive Model:A model that best visually reports the trend of
-the data set.
+Descriptive Model: A model that best visually reports the trend of
+the data set.\
 Inferential Model:A model used to "asses the quality of our predictions and 
 (or) estimation" (slide 30, lecture_day1). It is a model that "aims to test
 theories" and "state the relationship between outcome & predictors" (slide 7
-lecture_day2)
+lecture_day2)\
 Prediction model: a model that uses past data on predictors to "accurately 
 predict future response" (slide 30, day_1_131_231). It "aims to predict Y with
 minimum reducible error" (slide 7, lecture_day2).
@@ -118,11 +118,11 @@ ggplot(mpg, aes(x=hwy))+
        y="Frequency")
 ```
 \
-\
 This spread is somewhat bi-modal. There are peaks at 17 and 27. This implies
 that there are many car models that tend to have 17 mpg and 27 mpg on the 
 highway. This bi-modal nature may reflect the different sizes of cars 
 like sedans v suvs.\
+\
 **Exercise 2:**
 ```{r}
 ggplot(mpg, aes(x=hwy,y=cty))+
